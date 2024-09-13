@@ -72,12 +72,12 @@ const NewsletterSignUp = () => {
         </div>
         <div className="w-full md:w-1/2 mt-6 md:ml-10 md:mt-0">
           <img
-            src="illustration-sign-up-desktop.svg"
+            src="https://img.freepik.com/free-vector/sign-concept-illustration_114360-125.jpg?ga=GA1.1.1763993371.1723818863&semt=ais_hybrid"
             alt="Illustration for sign up"
             className="rounded-lg hidden md:block"
           />
           <img
-            src="illustration-sign-up-mobile.svg"
+            src="https://img.freepik.com/free-vector/sign-concept-illustration_114360-5267.jpg?ga=GA1.1.1763993371.1723818863&semt=ais_hybrid"
             alt="Illustration for sign up"
             className="rounded-lg md:hidden"
           />

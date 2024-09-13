@@ -1,3 +1,5 @@
+import NewsletterSignUp from "./NewslatterSignUp";
+import { Link } from "react-router-dom";
 const ThankYou = () => {
   return (
     <div className="bg-violet p-10">
@@ -15,10 +17,11 @@ const ThankYou = () => {
           <strong>ash@loremcompany.com</strong> Please open it and click the
           button inside to confirm your subscription.
         </p>
-
-        <button className="bg-violet text-White rounded-md text-sm mt-4 px-6 py-2 ">
-          Dismiss message
-        </button>
+        <Link to={`/`}>
+          <button className="bg-violet text-White rounded-md text-sm mt-4 px-6 py-2 hover:bg-Tomato">
+            Dismiss message
+          </button>
+        </Link>
       </div>
     </div>
   );
