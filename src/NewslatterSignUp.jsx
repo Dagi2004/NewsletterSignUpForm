@@ -33,14 +33,14 @@ const NewsletterSignUp = () => {
           <p className="mt-4 text-base text-charcoal-grey">
             Join 60,000+ product managers receiving monthly updates on:
           </p>
-          <ul className="list-none mt-5 text-CharcoalGrey space-y-4 max-wd-sm">
-            <li className="pl-4 before:block before:absolute before:-left-6 before:top-0 before:w-4 before:h-4 before:icon-list rounded-full bg-no-repeat relative">
+          <ul className="list-none mt-5 text-CharcoalGrey space-y-4 max-wd-sm  ">
+            <li className=" space-y-4 pl-4 before:content-['✅']">
               Product discovery and building what matter
             </li>
-            <li className="pl-4 before:block before:absolute before:-left-6 before:top-0 before:w-4 before:h-4 before:icon-list bg-no-repeat relative">
+            <li className="space-y-4 pl-4 before:content-['✅']">
               Measuring to ensure updates are a success
             </li>
-            <li className="pl-4 before:block before:absolute before:-left-6 before:top-0 before:w-4 before:h-4 before:icon-list bg-no-repeat relative">
+            <li className="space-y-4 pl-4 before:content-['✅']">
               And much more!
             </li>
           </ul>

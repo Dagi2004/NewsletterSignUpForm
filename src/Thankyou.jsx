@@ -1,4 +1,3 @@
-import NewsletterSignUp from "./NewslatterSignUp";
 import { Link } from "react-router-dom";
 const ThankYou = () => {
   return (
